@@ -5,19 +5,33 @@ VisualStudioVersion = 15.0.27004.2002
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BowlingSystem", "BowlingSystem", "{8083DC6E-6209-499D-AF1F-C6E8E37C9E64}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BowlingSystemDbLib", "BowlingSystemDbLib\BowlingSystemDbLib.csproj", "{17384625-80FB-40F9-8ABF-08B4FE5C8715}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BowlingSystemDbLib", "BowlingSystemDbLib\BowlingSystemDbLib.csproj", "{17384625-80FB-40F9-8ABF-08B4FE5C8715}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Accountability", "Accountability", "{1D5742E1-627E-4209-A84A-821155703029}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountabilityLib", "AccountabilityLib\AccountabilityLib.csproj", "{D93EF79F-4D74-4D31-9664-CC5E34D46FF0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccountabilityLib", "AccountabilityLib\AccountabilityLib.csproj", "{D93EF79F-4D74-4D31-9664-CC5E34D46FF0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountabilityInterfacesLib", "AccountabilityInterfacesLib\AccountabilityInterfacesLib.csproj", "{3A98C955-A182-4DB7-9D94-7E6F219EF73E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccountabilityInterfacesLib", "AccountabilityInterfacesLib\AccountabilityInterfacesLib.csproj", "{3A98C955-A182-4DB7-9D94-7E6F219EF73E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BowlingSystemLib", "BowlingSystemLib\BowlingSystemLib.csproj", "{2FB39BF8-812A-455A-971D-D604BB9F752E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BowlingSystemLib", "BowlingSystemLib\BowlingSystemLib.csproj", "{2FB39BF8-812A-455A-971D-D604BB9F752E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BowlingSystemInterfacesLib", "BowlingSystemInterfacesLib\BowlingSystemInterfacesLib.csproj", "{50AD19EF-CBCC-4535-8C66-B68CE279DD35}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BowlingSystemInterfacesLib", "BowlingSystemInterfacesLib\BowlingSystemInterfacesLib.csproj", "{50AD19EF-CBCC-4535-8C66-B68CE279DD35}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BowlingSystemIntegrationTestsLib", "BowlingSystemIntegrationTests\BowlingSystemIntegrationTestsLib.csproj", "{2C276A8D-878D-4481-AB80-D8AEAB18BDE2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BowlingSystemIntegrationTestsLib", "BowlingSystemIntegrationTests\BowlingSystemIntegrationTestsLib.csproj", "{2C276A8D-878D-4481-AB80-D8AEAB18BDE2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MemberSystem", "MemberSystem", "{698097F9-61A3-4E4F-809C-E677E8F25009}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MemberSystemLib", "MemberSystemLib\MemberSystemLib.csproj", "{847EA0DC-0CF2-4E95-AD9F-0D77D5FC0B12}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Competition", "Competition", "{A8D36E33-5C72-4E2A-8A83-B3A0E5F66DB8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompetitionLib", "CompetitionLib\CompetitionLib.csproj", "{EE79985D-D7DC-44FD-BBC2-43ED2ACAF184}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompetitionInterfacesLib", "CompetitionInterfacesLib\CompetitionInterfacesLib.csproj", "{7069A6CC-F722-4217-A201-A9296DC6489F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BowlingSystemUnitTests", "BowlingSystemTests\BowlingSystemUnitTests.csproj", "{43A86252-5450-43CE-B52B-3360AE7DF5BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemberSystemIntegrationTests", "MemberSystemIntegrationTests\MemberSystemIntegrationTests.csproj", "{1C0974CE-585B-40B3-97D1-580E4A80F720}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +63,26 @@ Global
 		{2C276A8D-878D-4481-AB80-D8AEAB18BDE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C276A8D-878D-4481-AB80-D8AEAB18BDE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C276A8D-878D-4481-AB80-D8AEAB18BDE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{847EA0DC-0CF2-4E95-AD9F-0D77D5FC0B12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{847EA0DC-0CF2-4E95-AD9F-0D77D5FC0B12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{847EA0DC-0CF2-4E95-AD9F-0D77D5FC0B12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{847EA0DC-0CF2-4E95-AD9F-0D77D5FC0B12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE79985D-D7DC-44FD-BBC2-43ED2ACAF184}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE79985D-D7DC-44FD-BBC2-43ED2ACAF184}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE79985D-D7DC-44FD-BBC2-43ED2ACAF184}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE79985D-D7DC-44FD-BBC2-43ED2ACAF184}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7069A6CC-F722-4217-A201-A9296DC6489F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7069A6CC-F722-4217-A201-A9296DC6489F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7069A6CC-F722-4217-A201-A9296DC6489F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7069A6CC-F722-4217-A201-A9296DC6489F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43A86252-5450-43CE-B52B-3360AE7DF5BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43A86252-5450-43CE-B52B-3360AE7DF5BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43A86252-5450-43CE-B52B-3360AE7DF5BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43A86252-5450-43CE-B52B-3360AE7DF5BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C0974CE-585B-40B3-97D1-580E4A80F720}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C0974CE-585B-40B3-97D1-580E4A80F720}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C0974CE-585B-40B3-97D1-580E4A80F720}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C0974CE-585B-40B3-97D1-580E4A80F720}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -60,6 +94,11 @@ Global
 		{2FB39BF8-812A-455A-971D-D604BB9F752E} = {8083DC6E-6209-499D-AF1F-C6E8E37C9E64}
 		{50AD19EF-CBCC-4535-8C66-B68CE279DD35} = {8083DC6E-6209-499D-AF1F-C6E8E37C9E64}
 		{2C276A8D-878D-4481-AB80-D8AEAB18BDE2} = {8083DC6E-6209-499D-AF1F-C6E8E37C9E64}
+		{847EA0DC-0CF2-4E95-AD9F-0D77D5FC0B12} = {698097F9-61A3-4E4F-809C-E677E8F25009}
+		{EE79985D-D7DC-44FD-BBC2-43ED2ACAF184} = {A8D36E33-5C72-4E2A-8A83-B3A0E5F66DB8}
+		{7069A6CC-F722-4217-A201-A9296DC6489F} = {A8D36E33-5C72-4E2A-8A83-B3A0E5F66DB8}
+		{43A86252-5450-43CE-B52B-3360AE7DF5BC} = {8083DC6E-6209-499D-AF1F-C6E8E37C9E64}
+		{1C0974CE-585B-40B3-97D1-580E4A80F720} = {698097F9-61A3-4E4F-809C-E677E8F25009}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {127D23C2-86A1-401C-A123-F6E286D14F03}

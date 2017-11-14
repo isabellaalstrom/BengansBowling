@@ -18,6 +18,7 @@
     <ProjectReference Include="..\AccountabilityInterfacesLib\AccountabilityInterfacesLib.csproj" />
     <ProjectReference Include="..\AccountabilityLib\AccountabilityLib.csproj" />
     <ProjectReference Include="..\BowlingSystemDbLib\BowlingSystemDbLib.csproj" />
+    <ProjectReference Include="..\BowlingSystemIntegrationTests\BowlingSystemIntegrationTestsLib.csproj" />
     <ProjectReference Include="..\BowlingSystemInterfacesLib\BowlingSystemInterfacesLib.csproj" />
     <ProjectReference Include="..\BowlingSystemLib\BowlingSystemLib.csproj" />
     <ProjectReference Include="..\CompetitionInterfacesLib\CompetitionInterfacesLib.csproj" />
